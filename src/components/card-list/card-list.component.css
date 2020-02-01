@@ -1,0 +1,10 @@
+/*===========================================*/
+/*            Card List Component            */
+/*===========================================*/
+
+.card-list {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-wrap: wrap;
+}

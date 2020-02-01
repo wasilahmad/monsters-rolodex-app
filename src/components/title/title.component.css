@@ -1,0 +1,11 @@
+.page-title {    
+    margin-bottom: 40px;
+}
+
+.page-title h1 { 
+    font-family: 'Bigelow Rules';
+    font-size: 72px;
+    color: #0ccac4; 
+    text-align: center;
+    margin: 0;
+}

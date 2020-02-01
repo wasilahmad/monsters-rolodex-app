@@ -1,0 +1,34 @@
+/*===========================================*/
+/*            Card  Component                */
+/*===========================================*/
+
+.card {
+    -ms-flex: 0 0 18.85%;
+    flex: 0 0 18.85%;
+    max-width: 18.85%;
+    background-color: #95dada;
+    border: 1px solid #95dada;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    margin: 0 10px 20px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card .card__icon,
+.card .card__desc {
+    text-align: center;
+}
+.card .card__desc h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card .card__desc p {
+    margin:0
+}
