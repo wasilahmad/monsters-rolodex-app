@@ -36,6 +36,7 @@ or
    $ yarn deploy / npm run deploy
    
   if you are getting following error ...
+  
 	$ gh-pages -d build
 	Cloning into 'node_modules\gh-pages\.cache\git@github.com!wasilahmad!monsters-rolodex-app.git'...
 	Host key verification failed.
