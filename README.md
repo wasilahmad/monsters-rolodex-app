@@ -36,14 +36,15 @@ or
    $ yarn deploy / npm run deploy
    
   if you are getting following error ...
-	// $ gh-pages -d build
-	// Cloning into 'node_modules\gh-pages\.cache\git@github.com!wasilahmad!monsters-rolodex-app.git'...
-	// Host key verification failed.
-	// fatal: Could not read from remote repository.
+	$ gh-pages -d build
+	Cloning into 'node_modules\gh-pages\.cache\git@github.com!wasilahmad!monsters-rolodex-app.git'...
+	Host key verification failed.
+	fatal: Could not read from remote repository.
 	
 	Then you need to generate a key by following steps given in below URL)
 	https://help.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 	After that you need to check a github connection
+	
   https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
     
 7. once you get following message then follow step 8
